@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escape The Black Hole</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="hud">
+
+    <div>
+      <div class="hud-label">SCORE</div>
+      <div id="score-display">0</div>
+    </div>
+
+    <div id="hud-center">
+      <div class="hud-label">HEALTH</div>
+
+      <div id="health-bar-bg">
+        <div id="health-bar"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="hud-label">LEVEL</div>
+      <div id="level-display">1</div>
+    </div>
+
+  </div>
+
+  <div id="fact-banner">
+    <span id="fact-icon">☄</span>
+    Black holes have gravity so strong that even light cannot escape.
+  </div>
+
+  <div id="start-screen">
+
+    <div id="start-content">
+
+      <div id="game-title">
+        <div class="title-line1">ESCAPE THE</div>
+        <div class="title-line2">BLACK HOLE</div>
+      </div>
+
+      <div id="start-subtitle">
+        INTERACTIVE SPACE PHYSICS GAME
+      </div>
+
+      <div id="controls-info">
+
+        <div class="ctrl-row">
+          Move:
+          <span class="key">W</span>
+          <span class="key">A</span>
+          <span class="key">S</span>
+          <span class="key">D</span>
+        </div>
+
+        <div class="ctrl-row">
+          Pause:
+          <span class="key">P</span>
+        </div>
+
+      </div>
+
+      <button id="start-btn">
+        START MISSION
+      </button>
+
+      <div id="start-tip">
+        Avoid the event horizon.
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
